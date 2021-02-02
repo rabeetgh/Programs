@@ -1,4 +1,4 @@
-program eulerm
+program rungekuta
       implicit none
       real :: x1, x2, h, y1, y2, s1, s2
       integer :: i, n
@@ -24,4 +24,4 @@ program eulerm
 
          write(*,*)x2, y2
       end do 
-      end program eulerm
+      end program rungekuta
